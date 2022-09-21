@@ -8,7 +8,7 @@
 {% block content %}
 <form method="POST">
     <input type="url" name="url-form" id="url"
-    placeholder="Enter link here" 
+    placeholder="Enter https:// link here" 
     autofocus required size="40" class="input"
     >
     <br>
@@ -18,7 +18,6 @@
 {% if url %}
     <div>
         <a href="https://petit-url.herokuapp.com/{{url}}" target="_blank">https://petit/{{url}}</a>
-
     </div>
 
    

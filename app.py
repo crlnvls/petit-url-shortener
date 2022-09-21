@@ -60,10 +60,10 @@ def redirection(short_url):
     if long_url:
         return redirect(long_url.long)
     else:
-        return f"<h1>Url doesn't exist</h1>"
+        return render_template("404.html")
 
 
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(debug=True)
