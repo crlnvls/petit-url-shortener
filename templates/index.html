@@ -1,0 +1,23 @@
+{% extends 'default.html'%}
+{% block title %}Petit URL{% endblock %}
+{% block heading %}
+<h1>Petit</h1>
+<h2>Free URL Shortener</h2>
+<h4> Create short & memorable links.</h4>
+{% endblock heading %}
+{% block content %}
+<form method="POST">
+    <input type="url" name="url-form" id="url"
+    placeholder="Enter link here" 
+    autofocus required size="50"
+    >
+    <br>
+    <input type="submit" value="Petit URL">
+</form>
+
+{% if url %}
+ <br>
+    
+    <a href="http://127.0.0.1:5000/{{url}}" target="_blank">http://127.0.0.1:5000/{{url}}</a>
+    {% endif %}
+{% endblock content %}
