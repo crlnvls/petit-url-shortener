@@ -3,21 +3,24 @@
 {% block heading %}
 <h1>Petit</h1>
 <h2>Free URL Shortener</h2>
-<h4> Create short & memorable links.</h4>
+<h4> Create short & memorable links</h4>
 {% endblock heading %}
 {% block content %}
 <form method="POST">
     <input type="url" name="url-form" id="url"
     placeholder="Enter link here" 
-    autofocus required size="50"
+    autofocus required size="40" class="input"
     >
     <br>
-    <input type="submit" value="Petit URL">
+    <input type="submit" value="Petit URL" class="submit">
 </form>
 
 {% if url %}
- <br>
-    
-    <a href="https://petit-url.herokuapp.com/{{url}}" target="_blank">https://petit/{{url}}</a>
+    <div>
+        <a href="https://petit-url.herokuapp.com/{{url}}" target="_blank">https://petit/{{url}}</a>
+
+    </div>
+
+   
     {% endif %}
 {% endblock content %}
