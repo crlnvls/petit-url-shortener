@@ -82,11 +82,11 @@ footer {
 }
 
 .heading{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .message {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
