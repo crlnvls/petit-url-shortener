@@ -55,11 +55,10 @@ h4 {
 }
 
 a {
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: aliceblue;
-    border: 3px solid aliceblue;
-    padding: 5px 50px;
+    padding: 5px 20px;
     font-family: 'Reem Kufi Fun', sans-serif;
 }
 
@@ -70,6 +69,15 @@ a:hover {
 
 div {
     margin-top: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+
+p {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 20px;
 }
 
 footer {
