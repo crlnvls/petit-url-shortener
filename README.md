@@ -1,6 +1,6 @@
 # Petit - URL Shortener 
 
-A URL shortener service created with Flask and Heroku Postgresql database.
+A URL shortener service created with Flask and Heroku Postgres database.
 
 **Demo:** [https://petit-url.herokuapp.com/](https://petit-url.herokuapp.com/)
 
