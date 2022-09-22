@@ -11,3 +11,8 @@ A URL shortener service created with Flask and Heroku Postgres database.
 - `pipenv install --dev`  : install all required packages.
 - `pipenv run dev` : run the development server
 
+
+
+
+![petit-url](https://user-images.githubusercontent.com/88780435/191848989-693f6fcf-2bbe-4a79-a293-f04c4c695497.gif)
+
